@@ -1,0 +1,61 @@
+questions = [
+    # BIOLOGY
+    {"subject": "Biology", "question": "Which organelle is called the powerhouse of the cell?", "options": ["A. Nucleus", "B. Mitochondria", "C. Ribosome", "D. Golgi body"], "answer": "B", "explanation": "Mitochondria produces ATP energy for the cell."},
+    {"subject": "Biology", "question": "What is the basic unit of life?", "options": ["A. Organ", "B. Tissue", "C. Cell", "D. Organism"], "answer": "C", "explanation": "The cell is the smallest and most basic unit of life."},
+    {"subject": "Biology", "question": "Which part of the plant conducts photosynthesis?", "options": ["A. Root", "B. Stem", "C. Leaf", "D. Flower"], "answer": "C", "explanation": "Leaves contain chlorophyll for photosynthesis."},
+    {"subject": "Biology", "question": "What pigment gives plants their green color?", "options": ["A. Hemoglobin", "B. Chlorophyll", "C. Melanin", "D. Keratin"], "answer": "B", "explanation": "Chlorophyll is the green pigment in plants."},
+    {"subject": "Biology", "question": "Which organ pumps blood through the body?", "options": ["A. Brain", "B. Lungs", "C. Heart", "D. Kidney"], "answer": "C", "explanation": "The heart pumps blood throughout the body."},
+    {"subject": "Biology", "question": "Which gas do humans breathe out?", "options": ["A. Oxygen", "B. Carbon dioxide", "C. Nitrogen", "D. Hydrogen"], "answer": "B", "explanation": "Humans exhale carbon dioxide during respiration."},
+    {"subject": "Biology", "question": "Which blood cells help fight infection?", "options": ["A. Red blood cells", "B. Platelets", "C. White blood cells", "D. Plasma"], "answer": "C", "explanation": "White blood cells defend the body against disease."},
+    {"subject": "Biology", "question": "What is the largest organ in the human body?", "options": ["A. Heart", "B. Brain", "C. Liver", "D. Skin"], "answer": "D", "explanation": "The skin is the largest organ in the human body."},
+    {"subject": "Biology", "question": "Which part of the cell controls activities?", "options": ["A. Cytoplasm", "B. Nucleus", "C. Cell membrane", "D. Vacuole"], "answer": "B", "explanation": "The nucleus controls the activities of the cell."},
+    {"subject": "Biology", "question": "Animals that eat only plants are called?", "options": ["A. Carnivores", "B. Omnivores", "C. Herbivores", "D. Parasites"], "answer": "C", "explanation": "Herbivores feed only on plants."},
+
+    # CHEMISTRY
+    {"subject": "Chemistry", "question": "What is the chemical symbol for Gold?", "options": ["A. Go", "B. Gd", "C. Au", "D. Ag"], "answer": "C", "explanation": "Gold's symbol Au comes from the Latin word Aurum."},
+    {"subject": "Chemistry", "question": "What is the pH of pure water?", "options": ["A. 5", "B. 7", "C. 9", "D. 14"], "answer": "B", "explanation": "Pure water is neutral with a pH of 7."},
+    {"subject": "Chemistry", "question": "What is the chemical formula for water?", "options": ["A. CO2", "B. H2O", "C. O2", "D. NaCl"], "answer": "B", "explanation": "Water is made up of hydrogen and oxygen with formula H2O."},
+    {"subject": "Chemistry", "question": "Which gas is essential for breathing?", "options": ["A. Nitrogen", "B. Oxygen", "C. Carbon dioxide", "D. Helium"], "answer": "B", "explanation": "Oxygen is required for respiration."},
+    {"subject": "Chemistry", "question": "What is the atomic number of Carbon?", "options": ["A. 6", "B. 8", "C. 12", "D. 14"], "answer": "A", "explanation": "Carbon has atomic number 6."},
+    {"subject": "Chemistry", "question": "Which substance turns blue litmus red?", "options": ["A. Base", "B. Salt", "C. Acid", "D. Water"], "answer": "C", "explanation": "Acids turn blue litmus paper red."},
+    {"subject": "Chemistry", "question": "What is the lightest element?", "options": ["A. Helium", "B. Oxygen", "C. Hydrogen", "D. Nitrogen"], "answer": "C", "explanation": "Hydrogen is the lightest element."},
+    {"subject": "Chemistry", "question": "Which metal is liquid at room temperature?", "options": ["A. Iron", "B. Mercury", "C. Sodium", "D. Copper"], "answer": "B", "explanation": "Mercury exists as a liquid at room temperature."},
+    {"subject": "Chemistry", "question": "What is the common name for NaCl?", "options": ["A. Baking soda", "B. Sugar", "C. Salt", "D. Vinegar"], "answer": "C", "explanation": "NaCl is common table salt."},
+    {"subject": "Chemistry", "question": "Which gas is released during photosynthesis?", "options": ["A. Oxygen", "B. Nitrogen", "C. Hydrogen", "D. Carbon monoxide"], "answer": "A", "explanation": "Plants release oxygen during photosynthesis."},
+
+    # PHYSICS
+    {"subject": "Physics", "question": "What is the SI unit of force?", "options": ["A. Watt", "B. Joule", "C. Newton", "D. Pascal"], "answer": "C", "explanation": "Force is measured in Newtons, named after Isaac Newton."},
+    {"subject": "Physics", "question": "What is the speed of light in vacuum?", "options": ["A. 3×10⁶ m/s", "B. 3×10⁸ m/s", "C. 3×10¹⁰ m/s", "D. 3×10⁴ m/s"], "answer": "B", "explanation": "Light travels at approximately 3×10⁸ metres per second in vacuum."},
+    {"subject": "Physics", "question": "Which instrument measures temperature?", "options": ["A. Barometer", "B. Thermometer", "C. Ammeter", "D. Voltmeter"], "answer": "B", "explanation": "A thermometer is used to measure temperature."},
+    {"subject": "Physics", "question": "What type of energy does a moving object possess?", "options": ["A. Potential energy", "B. Kinetic energy", "C. Heat energy", "D. Chemical energy"], "answer": "B", "explanation": "Moving objects possess kinetic energy."},
+    {"subject": "Physics", "question": "What is the SI unit of power?", "options": ["A. Joule", "B. Pascal", "C. Watt", "D. Newton"], "answer": "C", "explanation": "Power is measured in watts."},
+    {"subject": "Physics", "question": "Which color of light has the longest wavelength?", "options": ["A. Blue", "B. Violet", "C. Red", "D. Green"], "answer": "C", "explanation": "Red light has the longest wavelength in the visible spectrum."},
+    {"subject": "Physics", "question": "What causes objects to fall to the ground?", "options": ["A. Friction", "B. Magnetism", "C. Gravity", "D. Pressure"], "answer": "C", "explanation": "Gravity pulls objects toward the Earth."},
+    {"subject": "Physics", "question": "Which mirror is used as a rear-view mirror in vehicles?", "options": ["A. Plane mirror", "B. Convex mirror", "C. Concave mirror", "D. Glass mirror"], "answer": "B", "explanation": "Convex mirrors provide a wider field of view."},
+    {"subject": "Physics", "question": "What is the SI unit of electric current?", "options": ["A. Volt", "B. Ohm", "C. Ampere", "D. Coulomb"], "answer": "C", "explanation": "Electric current is measured in amperes."},
+    {"subject": "Physics", "question": "Sound cannot travel through which medium?", "options": ["A. Water", "B. Air", "C. Steel", "D. Vacuum"], "answer": "D", "explanation": "Sound needs a material medium to travel."},
+
+    # MATHEMATICS
+    {"subject": "Mathematics", "question": "What is the value of π (pi) to 2 decimal places?", "options": ["A. 3.14", "B. 3.41", "C. 3.12", "D. 3.16"], "answer": "A", "explanation": "Pi is approximately 3.14159, rounded to 3.14."},
+    {"subject": "Mathematics", "question": "What is the square root of 144?", "options": ["A. 11", "B. 12", "C. 13", "D. 14"], "answer": "B", "explanation": "12 × 12 = 144, so √144 = 12."},
+    {"subject": "Mathematics", "question": "What is 15 + 27?", "options": ["A. 32", "B. 42", "C. 52", "D. 38"], "answer": "B", "explanation": "15 + 27 = 42."},
+    {"subject": "Mathematics", "question": "What is 9 × 8?", "options": ["A. 72", "B. 81", "C. 64", "D. 69"], "answer": "A", "explanation": "9 multiplied by 8 equals 72."},
+    {"subject": "Mathematics", "question": "What is 100 ÷ 4?", "options": ["A. 20", "B. 25", "C. 30", "D. 40"], "answer": "B", "explanation": "100 divided by 4 equals 25."},
+    {"subject": "Mathematics", "question": "What is 7²?", "options": ["A. 14", "B. 21", "C. 49", "D. 77"], "answer": "C", "explanation": "7² means 7 × 7 which equals 49."},
+    {"subject": "Mathematics", "question": "What is the value of 5! (5 factorial)?", "options": ["A. 25", "B. 60", "C. 100", "D. 120"], "answer": "D", "explanation": "5! = 5 × 4 × 3 × 2 × 1 = 120."},
+    {"subject": "Mathematics", "question": "What is the perimeter of a square with side 6 cm?", "options": ["A. 12 cm", "B. 18 cm", "C. 24 cm", "D. 36 cm"], "answer": "C", "explanation": "Perimeter of a square = 4 × side = 24 cm."},
+    {"subject": "Mathematics", "question": "Convert 0.5 to a fraction.", "options": ["A. 1/5", "B. 1/2", "C. 2/5", "D. 5/10"], "answer": "B", "explanation": "0.5 is equal to 1/2."},
+    {"subject": "Mathematics", "question": "What is the area of a rectangle with length 8 cm and width 3 cm?", "options": ["A. 11 cm²", "B. 16 cm²", "C. 24 cm²", "D. 48 cm²"], "answer": "C", "explanation": "Area = length × width = 8 × 3 = 24 cm²."},
+
+    # ENGLISH
+    {"subject": "English", "question": "Which of these is a conjunction?", "options": ["A. quickly", "B. although", "C. beautiful", "D. run"], "answer": "B", "explanation": "Although is a conjunction used to connect contrasting clauses."},
+    {"subject": "English", "question": "What is the plural of 'criterion'?", "options": ["A. criterions", "B. criterias", "C. criteria", "D. criterium"], "answer": "C", "explanation": "The correct plural of criterion is criteria."},
+    {"subject": "English", "question": "Which of these is an adjective?", "options": ["A. happily", "B. blue", "C. run", "D. softly"], "answer": "B", "explanation": "Blue is an adjective because it describes a noun."},
+    {"subject": "English", "question": "Choose the correct synonym of 'rapid'.", "options": ["A. slow", "B. weak", "C. fast", "D. calm"], "answer": "C", "explanation": "Rapid means fast or quick."},
+    {"subject": "English", "question": "Which punctuation mark is used to ask a question?", "options": ["A. Comma", "B. Full stop", "C. Colon", "D. Question mark"], "answer": "D", "explanation": "A question mark is used at the end of a direct question."},
+    {"subject": "English", "question": "Which word is a noun?", "options": ["A. jump", "B. honesty", "C. quickly", "D. bright"], "answer": "B", "explanation": "Honesty is a noun because it names a quality."},
+    {"subject": "English", "question": "What is the opposite of 'ancient'?", "options": ["A. old", "B. modern", "C. weak", "D. rough"], "answer": "B", "explanation": "Modern is the opposite of ancient."},
+    {"subject": "English", "question": "Which sentence is correctly capitalized?", "options": ["A. i live in lagos.", "B. I live in Lagos.", "C. I live in lagos.", "D. i Live in Lagos."], "answer": "B", "explanation": "The pronoun 'I' and the city name 'Lagos' must begin with capital letters."},
+    {"subject": "English", "question": "Which of these is a pronoun?", "options": ["A. she", "B. table", "C. beautiful", "D. sing"], "answer": "A", "explanation": "She is a pronoun used in place of a noun."},
+    {"subject": "English", "question": "Choose the correct past tense of 'go'.", "options": ["A. goed", "B. going", "C. went", "D. goes"], "answer": "C", "explanation": "The past tense of go is went."},
+]

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Scores</title>
+
+<style>
+
+body{
+font-family:Arial,sans-serif;
+background:#f4f6f9;
+}
+
+.container{
+max-width:800px;
+margin:40px auto;
+background:white;
+padding:30px;
+border-radius:15px;
+box-shadow:0 0 15px rgba(0,0,0,.1);
+}
+
+.score{
+background:#f8f9fa;
+padding:15px;
+border-radius:10px;
+margin-bottom:15px;
+}
+
+a{
+display:inline-block;
+margin-top:20px;
+background:#008751;
+padding:12px 20px;
+border-radius:8px;
+color:white;
+text-decoration:none;
+}
+
+</style>
+
+</head>
+<body>
+
+<div class="container">
+
+<h1>Quiz Scores</h1>
+
+{% if scores %}
+
+{% for item in scores %}
+
+<div class="score">
+
+<p>
+Subject:
+{{ item.subject }}
+</p>
+
+<p>
+Score:
+{{ item.score }}/{{ item.total }}
+</p>
+
+<p>
+Percentage:
+{{ item.percentage }}%
+</p>
+
+</div>
+
+{% endfor %}
+
+{% else %}
+
+<p>No quiz attempts yet.</p>
+
+{% endif %}
+
+<a href="/">
+Back Home
+</a>
+
+</div>
+
+</body>
+</html>

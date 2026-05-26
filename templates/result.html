@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Quiz Result</title>
+
+<style>
+
+body{
+font-family:Arial,sans-serif;
+background:#f4f6f9;
+}
+
+.container{
+max-width:700px;
+margin:50px auto;
+background:white;
+padding:40px;
+text-align:center;
+border-radius:15px;
+box-shadow:0 0 15px rgba(0,0,0,.1);
+}
+
+h1{
+color:#008751;
+}
+
+.btn{
+display:inline-block;
+padding:12px 20px;
+background:#008751;
+color:white;
+text-decoration:none;
+border-radius:8px;
+margin-top:20px;
+}
+
+</style>
+
+</head>
+<body>
+
+<div class="container">
+
+<h1>Quiz Completed</h1>
+
+<h2>{{ subject }}</h2>
+
+<p>
+Score: {{ score }}/{{ total }}
+</p>
+
+<p>
+Percentage: {{ percentage }}%
+</p>
+
+<a href="/" class="btn">
+Back Home
+</a>
+
+</div>
+
+</body>
+</html>

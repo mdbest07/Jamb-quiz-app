@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>{{ subject }} Quiz</title>
+
+<style>
+
+body{
+font-family:Arial,sans-serif;
+background:#f4f6f9;
+}
+
+.container{
+max-width:800px;
+margin:40px auto;
+background:white;
+padding:30px;
+border-radius:15px;
+box-shadow:0 0 15px rgba(0,0,0,.1);
+}
+
+h1{
+color:#008751;
+}
+
+.option{
+margin:10px 0;
+}
+
+button{
+background:#008751;
+color:white;
+border:none;
+padding:12px 20px;
+border-radius:8px;
+cursor:pointer;
+}
+
+button:hover{
+background:#006b40;
+}
+
+.feedback{
+background:#f8f9fa;
+padding:15px;
+margin-bottom:20px;
+border-radius:10px;
+}
+
+</style>
+
+</head>
+<body>
+
+<div class="container">
+
+<h1>{{ subject }}</h1>
+
+<p>
+Question {{ index }} of {{ total }}
+</p>
+
+{% if explanation %}
+
+<div class="feedback">
+
+{% if correct %}
+<p>✅ Correct</p>
+{% else %}
+<p>❌ Incorrect</p>
+<p>Correct Answer: {{ correct_answer }}</p>
+{% endif %}
+
+<p>{{ explanation }}</p>
+
+</div>
+
+{% endif %}
+
+<form action="/submit" method="post">
+
+<h2>{{ question.question }}</h2>
+
+{% for option in question.options %}
+
+<div class="option">
+
+<label>
+
+<input
+type="radio"
+name="answer"
+value="{{ option[0] }}"
+required>
+
+{{ option }}
+
+</label>
+
+</div>
+
+{% endfor %}
+
+<br>
+
+<button type="submit">
+Submit Answer
+</button>
+
+</form>
+
+</div>
+
+</body>
+</html>

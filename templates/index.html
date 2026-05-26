@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>JAMB CBT Quiz</title>
+
+<style>
+body{
+font-family:Arial,sans-serif;
+background:#f4f6f9;
+margin:0;
+}
+
+.container{
+max-width:800px;
+margin:50px auto;
+background:white;
+padding:40px;
+border-radius:15px;
+box-shadow:0 0 15px rgba(0,0,0,.1);
+text-align:center;
+}
+
+h1{
+color:#008751;
+}
+
+.subjects{
+display:grid;
+grid-template-columns:1fr 1fr;
+gap:15px;
+margin-top:30px;
+}
+
+a{
+text-decoration:none;
+}
+
+.btn{
+display:block;
+background:#008751;
+color:white;
+padding:15px;
+border-radius:10px;
+font-weight:bold;
+}
+
+.btn:hover{
+background:#006b40;
+}
+</style>
+
+</head>
+<body>
+
+<div class="container">
+
+<h1>JAMB CBT Quiz App</h1>
+
+<p>Select a subject to begin.</p>
+
+<div class="subjects">
+
+<a href="/quiz/Biology" class="btn">Biology</a>
+
+<a href="/quiz/Chemistry" class="btn">Chemistry</a>
+
+<a href="/quiz/Physics" class="btn">Physics</a>
+
+<a href="/quiz/Mathematics" class="btn">Mathematics</a>
+
+<a href="/quiz/English" class="btn">English</a>
+
+<a href="/scores" class="btn">View Scores</a>
+
+</div>
+
+</div>
+
+</body>
+</html>
